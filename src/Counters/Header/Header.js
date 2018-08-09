@@ -9,7 +9,7 @@ export default function Header(props){
                     style={{position:'absolute',right:'-11px',top:'-13px'}}
                     onClick={props.handleDelete(props.id)}>
 
-                    <i class="fas fa-times" style={{color:'red'}}></i>
+                    <i className="fas fa-times" style={{color:'red'}}></i>
                 </button>
             </div>
     );
